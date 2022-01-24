@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erebus</title>
+    <link rel="stylesheet" href="Styles/Details.css">
+</head>
+<body>
+    <nav>
+        <h1>Synthlog</h1>
+        <div class="onglets">
+            <a href="index.html">Accueil</a>
+            <a href="Produits.html">Nos produits</a>
+            <div class="dropdown">
+                <div class="boutonmenuprincipal">A propos</div>
+                <div class="dropdown-child">
+                    <a href="Presentation.html">Qui sommes-nous ?</a>
+                    <a href="Technique.html">Détails techniques</a>
+                </div>
+            </div>
+            <a href="Panier_vide.html">Panier <img src="Images/panier.png" alt="panier"></a>
+            <input type="search" id="maRecherche" name="q" placeholder="Recherche ..." size="10">
+            <form style="display: inline" action="Produits.html" method="get">
+                <button>Rechercher</button>
+            </form>
+        </div>
+    </nav>
+
+    <header>
+        <h1>L'Erebus V3,</h1>
+        <h4>Un synthétiseur modulaire fait main par DREADBOX</h4>
+        <form style="display: inline" action="Panier_plein.html" method="get">
+            <button>J'achète !</button>
+        </form>
+    </header>
+
+    <section class="main">
+        <div class="cards">
+
+            <div class="card">
+                <img src="Images/Erebus_V3.jpg" alt="Erebus">
+                <div class="card-header">
+                    <h4 class="title">L'Erebus V3 de DREADBOX</h4>
+                    <h4 class="price">599 €</h4>
+                </div>
+                <div class="card-body">
+                    <p>Un synthétiseur modulaire fait main</p>
+                </div>
+            </div>
+            <div class="caracteristics">
+                <h5>
+                    Entièrement analogique<br>
+                    Synthétiseur paraphonique 2 voix<br>
+                    3 oscillateurs<br>
+                    2 oscillateurs avec Glide individuel<br>
+                    Echo Lo-Fi<br>
+                    Générateur de bruit blanc<br>
+                    LFO<br>
+                    Générateur d'horloge<br>
+                    Sample & Hold patchables<br>
+                    35 points de patch<br>
+                    Dimensions: 350 x 195 x 170 mm<br>
+                    Poids: 2380 g<br>
+                </h5>
+            </div>
+            <div class="description">
+                <p>
+                    Le dieu des ténèbres connaît une renaissance impressionnante avec l'Erebus V3. Plus puissant que jamais, l’Erebus profite d’un troisième oscillateur et délivre un son de base beaucoup plus puissant que son ancêtre l’Erebus V2, l'un des synthétiseurs « Desktop » analogiques les plus vendus ces dernières années. L’Erebus V3 dispose de 35 points de patch (au lieu de 14 dans l'Erebus V2) et ouvre des possibilités qui vont bien au-delà des autres synthétiseurs analogiques de cette gamme de prix. Contrôle MIDI ou CV/Gate. Le VCF et un délay merveilleusement rétro apportent la touche finale qui carractérise le son fabuleux du légendaire dieu Erebus.
+                </p>
+            </div>
+        </div>
+        <div class="video">
+            <iframe src="https://youtube.com/embed/Bv3pabVSMRQ" allowfullscreen></iframe>
+        </div>
+    </section>
+
+
+    <footer>
+        <h1>Informations</h1>
+        <div class="services">
+
+            <div class="service">
+                <h3>Qui suis-je ?</h3>
+                <p>François METEYER, étudiant en DUT informatique mention Année Spéciale promotion 2021/2022.</p>
+            </div>
+
+            <div class="service">
+                <h3>Contextualisation</h3>
+                <p>Ce projet s'est fait dans le cadre d'un devoir universitaire et n'a aucunement été fait à des fins lucratives, il a de plus été réalisé en HTML et CSS exclusivement. Merci aux hébergeurs concernés pour l'utilisation des images au sein de ce site web. Vous trouverez tous les détails de la conception de ce projet dans l'onglet "A propos" en haut à droite.</p>
+            </div>
+
+            <div class="service">
+                <h3>Fonctionnalités</h3>
+                <p>Ce site est une maquette. Les pages consultables sont la page d'accueil, une page qui liste les produits, une page d'informations pour chaque produit (dix produits en tout), une page panier et une page expliquant la mise en oeuvre du projet ainsi que les détails techniques.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

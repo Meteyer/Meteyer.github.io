@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimoog</title>
+    <link rel="stylesheet" href="Styles/Details.css">
+</head>
+<body>
+    <nav>
+        <h1>Synthlog</h1>
+        <div class="onglets">
+            <a href="index.html">Accueil</a>
+            <a href="Produits.html">Nos produits</a>
+            <div class="dropdown">
+                <div class="boutonmenuprincipal">A propos</div>
+                <div class="dropdown-child">
+                    <a href="Presentation.html">Qui sommes-nous ?</a>
+                    <a href="Technique.html">Détails techniques</a>
+                </div>
+            </div>
+            <a href="Panier_vide.html">Panier <img src="Images/panier.png" alt="panier"></a>
+            <input type="search" id="maRecherche" name="q" placeholder="Recherche ..." size="10">
+            <form style="display: inline" action="Produits.html" method="get">
+                <button>Rechercher</button>
+            </form>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Le Minimoog,</h1>
+        <h4>Celui qui a posé les bases par MOOG</h4>
+        <form style="display: inline" action="Panier_plein.html" method="get">
+            <button>J'achète !</button>
+        </form>
+    </header>
+
+    <section class="main">
+        <div class="cards">
+
+            <div class="card">
+                <img src="Images/Minimoog.jpg" alt="Minimoog">
+                <div class="card-header">
+                    <h4 class="title">Le Minimoog de MOOG</h4>
+                    <h4 class="price">1 499 €</h4>
+                </div>
+                <div class="card-body">
+                    <p>Celui qui a posé les bases</p>
+                </div>
+            </div>
+            <div class="caracteristics">
+                <h5>
+                    25 touches semi-lestées et sensibles à la vélocité<br>
+                    Molettes de Pitch Bend et Modulation<br>
+                    Modes monophonique et duo-paraphonique<br>
+                    2 oscillateurs avec synchronisation<br>
+                    Sub-oscillateur carré<br>
+                    Générateur de bruit<br>
+                    Filtre Ladder (pente 6/12/18/24 dB par octave)<br>
+                    2 enveloppes DAHDSR<br>
+                    LFO avec différentes formes de vibration<br>
+                    Multidrive analogique sur la sortie du filtre<br>
+                    Gestionnaire de presets pour 16 presets dans 4 banques<br>
+                    Panneaux latéraux en bois<br>
+                    Dimensions: env. 514 x 171 x 375 mm<br>
+                    Poids: 7,26 kg<br>
+                </h5>
+            </div>
+            <div class="description">
+                <p>
+                    Le Minimoog (Model D) est un synthétiseur analogique monophonique, inventé par Bill Hemsath et Robert Moog. Commercialisé en 1970, cet instrument fixa plusieurs standards pour les synthétiseurs analogiques au niveau de l'interface de contrôle notamment. On peut en jouer via son clavier intégré, une nouveauté à l'époque. Il a été fabriqué de 1970 à 1981.<br><br>
+                    Ce synthétiseur s'appuie sur la synthèse soustractive : les oscillateurs fournissent des formes d'ondes riches en harmoniques, que le filtre permet d'adoucir.<br><br>
+                    Le Minimoog dispose de quatre sources sonores : trois oscillateurs (VCO) et un générateur de bruit. Le troisième oscillateur peut être commuté en LFO (oscillateur basse fréquence) et utilisé pour moduler les deux autres oscillateurs ou le filtre. Les ondes sonores mélangées via les contrôles de la section mixer passent ensuite par le fameux « filtre Moog » — un VCF passe-bas résonnant à quatre pôles, 24 dB/oct — et un amplificateur (VCA), qui tous deux possèdent leur propre générateur d'enveloppe.<br><br>
+                    Ce synthétiseur reste aujourd'hui encore une référence dans le monde de la musique électronique et ce plus de cinquante ans après sa sortie (Daft Punk notemment). Une version modernisée, le Minimoog Voyager, conçue par Robert Moog, a vu le jour en 2002. Elle reprend l'architecture de l'original, tout en lui ajoutant des fonctionnalités modernes, et sa qualité sonore est voisine de celle du Minimoog Model D.
+                </p>
+            </div>
+        </div>
+        <div class="video">
+            <iframe src="https://youtube.com/embed/J-Y2Uwe5Veo" allowfullscreen></iframe>
+        </div>
+    </section>
+
+
+    <footer>
+        <h1>Informations</h1>
+        <div class="services">
+
+            <div class="service">
+                <h3>Qui suis-je ?</h3>
+                <p>François METEYER, étudiant en DUT informatique mention Année Spéciale promotion 2021/2022.</p>
+            </div>
+
+            <div class="service">
+                <h3>Contextualisation</h3>
+                <p>Ce projet s'est fait dans le cadre d'un devoir universitaire et n'a aucunement été fait à des fins lucratives, il a de plus été réalisé en HTML et CSS exclusivement. Merci aux hébergeurs concernés pour l'utilisation des images au sein de ce site web. Vous trouverez tous les détails de la conception de ce projet dans l'onglet "A propos" en haut à droite.</p>
+            </div>
+
+            <div class="service">
+                <h3>Fonctionnalités</h3>
+                <p>Ce site est une maquette. Les pages consultables sont la page d'accueil, une page qui liste les produits, une page d'informations pour chaque produit (dix produits en tout), une page panier et une page expliquant la mise en oeuvre du projet ainsi que les détails techniques.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

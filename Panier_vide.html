@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier_vide</title>
+    <link rel="stylesheet" href="Styles/Panier_vide.css">
+</head>
+<body>
+    <nav>
+        <h1>Synthlog</h1>
+        <div class="onglets">
+            <a href="index.html">Accueil</a>
+            <a href="Produits.html">Nos produits</a>
+            <div class="dropdown">
+                <div class="boutonmenuprincipal">A propos</div>
+                <div class="dropdown-child">
+                    <a href="Presentation.html">Qui sommes-nous ?</a>
+                    <a href="Technique.html">Détails techniques</a>
+                </div>
+            </div>
+            <input type="search" id="maRecherche" name="q" placeholder="Recherche ..." size="12">
+            <form style="display: inline" action="Produits.html" method="get">
+                <button>Rechercher</button>
+            </form>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Votre panier</h1>
+    </header>
+    
+    <section class="main">
+        <h1>Votre panier est vide :(</h1>
+        <form style="display: inline" action="Produits.html" method="get">
+            <button>Parcourir les articles</button>
+        </form>
+    </section>
+
+    <footer>
+        <h1>Informations</h1>
+        <div class="services">
+
+            <div class="service">
+                <h3>Qui suis-je ?</h3>
+                <p>François METEYER, étudiant en DUT informatique mention Année Spéciale promotion 2021/2022.</p>
+            </div>
+
+            <div class="service">
+                <h3>Contextualisation</h3>
+                <p>Ce projet s'est fait dans le cadre d'un devoir universitaire et n'a aucunement été fait à des fins lucratives, il a de plus été réalisé en HTML et CSS exclusivement. Merci aux hébergeurs concernés pour l'utilisation des images au sein de ce site web. Vous trouverez tous les détails de la conception de ce projet dans l'onglet "A propos" en haut à droite.</p>
+            </div>
+
+            <div class="service">
+                <h3>Fonctionnalités</h3>
+                <p>Ce site est une maquette. Les pages consultables sont la page d'accueil, une page qui liste les produits, une page d'informations pour chaque produit (dix produits en tout), une page panier et une page expliquant la mise en oeuvre du projet ainsi que les détails techniques.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

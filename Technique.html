@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technique</title>
+    <link rel="stylesheet" href="Styles/Presentation.css">
+</head>
+<body>
+    <nav>
+        <h1>Synthlog</h1>
+        <div class="onglets">
+            <a href="index.html">Accueil</a>
+            <a href="Produits.html">Nos produits</a>
+            <div class="dropdown">
+                <div class="boutonmenuprincipal">A propos</div>
+                <div class="dropdown-child">
+                    <a href="Presentation.html">Qui sommes-nous ?</a>
+                </div>
+            </div>
+            <a href="Panier_vide.html">Panier <img src="Images/panier.png" alt="panier"></a>
+            <input type="search" id="maRecherche" name="q" placeholder="Recherche ..." size="12">
+            <form style="display: inline" action="Produits.html" method="get">
+                <button>Rechercher</button>
+            </form>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Détails techniques</h1>
+        <h4>Toutes les réponses à vos question !</h4>
+    </header>
+
+    <section class="main">
+        <h2>Détails globaux : </h2>
+        <p>
+            Ce site a été fait dans le cadre d’un projet d’école pour l’IUT Lyon 1 d’Informatique.<br><br>
+            Ce projet comprend en tout 18 pages HTML pour 7 pages CSS dans un dossier « Style » et un dossier « image » comprenant 13 images.<br><br>
+            Chaque page HTML a été faite sous la structure suivante :<br><br>
+            -	Une barre de navigation (en position « sticky ») permettant de manière directe d’aller d’une page à l’autre du site web. Chaque type de page est enlevée en fonction de la navigation. Par exemple, le panier disparait de la navigation lorsque que l’utilisateur est sur la page Panier.<br>
+            -	Un « Header » qui indique soit la marche à suivre, soit des indications à l’utilisateur en fonction de la page.<br>
+            -	Une section dite « Main » comportant tous les détails et le contenu principal de la page concernée.<br>
+            -	Un « Footer » identique à toutes les pages qui résume brièvement les informations me concernant et celles du site web.<br><br>
+            Les liens entre les pages HTML et CSS sont les suivant :<br><br>
+            -	Accueil.css est liée à la page Accueil.html.<br>
+            -	Detail.css est liée à toutes les pages des détails produits (10 produits en tout).<br>
+            -	Formulaire.css gère le formulaire d’inscription lors de la validation du panier et de la commande.<br>
+            -	Panier_plein.css gère la simulation du panier plein lorsque vous y ajoutez un article.<br>
+            -	Panier_vide.css gère la simulation du panier vide lorsque vous y aller sans ajouter un article et la page de remerciements lors de l’achat.<br>
+            -	Presentation.css gère les pages « Qui sommes-nous » et « Details Techniques ».<br>
+            -	Produits.css gère la page de présentation de produits.<br><br>
+            Toutes ces pages ont été vérifiées au W3C une par une pour validation aussi bien pour les pages HTML que CSS. Le site entier est également « responsive ».
+        </p>
+        <h2>Page d’accueil et élaboration de la chartre graphique : </h2>
+        <p>
+            C’est de l’élaboration de la page d’accueil que j’ai pu déterminer le design pour le reste du site. Vous remarquerez que chaque page comporte une barre de navigation suivie d’un Header, d’une section principale et d’un Footer.<br><br>
+            Le choix d’un design simple et épuré en noir et blanc (comme les touches d’un piano) a été fait pour coller au objets vendus mais aussi pour permettre de mieux délimiter les zones prises par chaque section.<br><br>
+            C’est de cette page que découlera les autres avec une barre de navigation, un Header et un Footer identique à chaque page.<br><br>
+            La page HTML de l’accueil est donc liée à la feuille de style Accueil.CSS qui sera à peu de chose près reprise sur les 6 autres pages CSS.<br><br>
+            La police a quant à elle été importée via Google Font et est la même pour tout le sitz web. Il s'agit du MONTSERRAT.
+        </p>
+        <h2>Barre de navigation, Header et Footer : </h2>
+        <p>
+            Le Footer est le même pour chaque page. Il sert à résumer les informations me concernant ainsi que celles de mon site web.<br><br>
+            Le Header quant à lui sert à donner des indications aux utilisateurs. Il a pour fond une image de synthétiseur directement prise sur une url sur le WEB. Il sépare à l’arriver sur la page la barre de navigation et la section Main pour plus d’esthétique. J'ai simplement mis un fond noir pour les page de détails de produits pour bien délimiter l'image du produit.<br><br>
+            La barre de navigation permet d’aller directement d’une page à l’autre du site web sans passer par les différents boutons du Header ou de la section Main de chaque page. Elle suit la décente de page au grés de l’utilisateur (position « sticky »). Elle contient le logo du site et les différents boutons change en fonction de la page. Par exemple, si l’utilisateur est sur la page d’accueil, l’onglet accueil n’apparaitra pas dans la barre de navigation.<br>
+            J’ai décidé de rassembler les informations me concernant (Qui sommes-nous ?) et celui des détails techniques en un menu déroulant. Il suffit de passer sa souris dans l’onglet « A propos ».<br>
+            J’ai également inclus une barre de recherche avec un bouton qui renvoi directement sur la page de présentation des produit pour permettre une navigation cohérente au sein du site.
+        </p>
+        <h2>Fiche produit et détails par produit : </h2>
+        <p>
+            L’onglet de la barre de navigation « Produit » redirige sur la présentation des différents produits. Vous pouvez accéder à cette page via le bouton « Rechercher » de la barre de navigation, le bouton « Parcourir » du Header de la page d’accueil et le bouton « Parcourir » de la page du panier vide.<br><br>
+            Chaque produit (dix produits en tout) a sa page spécifique. Toutes ces pages sont structurées de la même manière à savoir :<br><br>
+            -	Barre de navigation<br>
+            -	Header avec fond noir comportant le nom de la machine et sa marque.<br>
+            -	Une section main comportant l’image du produit, ses caractéristiques techniques, un texte bref promouvant le produit et une vidéo provenant de Youtube (/embed/) montrant les possibilités offertes par le produit en question.<br>
+            -	Le Footer commun à toutes les pages.
+        </p>
+        <h2>Le panier : </h2>
+        <p>
+            Il existe deux page pour le panier. Une page pour le panier vide et une simulant un panier plein.<br><br>
+            Pour accéder au panier vide, il suffit de cliquer sur l’onglet panier de la barre de navigation présent sur toutes les pages HTML du site web. Vous serez alors redirigé sur le panier avec un message vous disant qu’il est vide et un bouton vous invitant à parcourir les produits.<br><br>
+            Pour accéder au panier plein, vous devrez choisir un produit dans la liste de ceux proposer et cliquer sur le bouton « J’achète !» du Header de la page HTML du produit concerné. Vous serez alors rediriger sur la page « Panier plein ».<br>
+            Vous pourrez constater que les dix produits ont alors été ajouté au panier avec leurs prix respectifs.<br>
+            Si vous descendez au pied de page, vous verrez le total du panier avec un bouton vous invitant à confirmer votre commande. En cliquant sur ce bouton, vous serez alors redirigé sur une page vous demandant de rentrer vos coordonnées.
+        </p>
+        <h2>La validation de la commande : </h2>
+        <p>
+            Enfin, par soucis de cohérence, j’ai tenu à intégrer un formulaire d’enregistrement afin de valider sa commande. Vous pouvez y saisir votre civilité (Mr. ou Mme.), nom, prénom, adresse, ville, code postal et un message complémentaire.<br>
+            En cliquant sur le bouton validation de commande, vous serez redirigé sur une page vous remerciant pour votre achat et vous invitant à retourner à l’accueil vient un bouton fait pour cela.
+        </p>
+    </section>
+
+    <footer>
+        <h1>Informations</h1>
+        <div class="services">
+
+            <div class="service">
+                <h3>Qui suis-je ?</h3>
+                <p>François METEYER, étudiant en DUT informatique mention Année Spéciale promotion 2021/2022.</p>
+            </div>
+
+            <div class="service">
+                <h3>Contextualisation</h3>
+                <p>Ce projet s'est fait dans le cadre d'un devoir universitaire et n'a aucunement été fait à des fins lucratives, il a de plus été réalisé en HTML et CSS exclusivement. Merci aux hébergeurs concernés pour l'utilisation des images au sein de ce site web. Vous trouverez tous les détails de la conception de ce projet dans l'onglet "A propos" en haut à droite.</p>
+            </div>
+
+            <div class="service">
+                <h3>Fonctionnalités</h3>
+                <p>Ce site est une maquette. Les pages consultables sont la page d'accueil, une page qui liste les produits, une page d'informations pour chaque produit (dix produits en tout), une page panier et une page expliquant la mise en oeuvre du projet ainsi que les détails techniques.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
